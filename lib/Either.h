@@ -1,4 +1,6 @@
 #pragma once
+
+#include <exception>
 #include <functional>
 
 namespace libmonad
@@ -143,7 +145,7 @@ namespace libmonad
 	template <typename L, typename R>
 	void Either<L, R>::CheckIfInitialized() const
 	{
-		if(isBottom) { throw std::exception("Either is not initialized. Assign it a value");}
+		if(isBottom) { throw std::exception(/*"Either is not initialized. Assign it a value"*/);}
 	}
 
 	template <typename L, typename R>

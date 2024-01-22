@@ -1,5 +1,6 @@
 // ReSharper disable CppNonExplicitConvertingConstructor
 #pragma once
+
 #include <functional>
 
 #include "Either.h"

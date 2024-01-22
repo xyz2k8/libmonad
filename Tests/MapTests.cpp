@@ -1,5 +1,7 @@
-#include "pch.h"
-#include "..\lib\Either.h"
+#include "gtest.h"
+
+#include "Either.h"
+
 using namespace libmonad;
 
 namespace Tests

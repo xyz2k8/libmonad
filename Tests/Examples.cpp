@@ -1,6 +1,8 @@
-#include "pch.h"
-#include "..\lib\Either.h"
-#include "..\lib\Option.h"
+#include "gtest.h"
+
+#include "Either.h"
+#include "Option.h"
+
 using namespace libmonad;
 using namespace std;
 
